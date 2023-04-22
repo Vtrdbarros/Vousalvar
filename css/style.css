@@ -1,0 +1,297 @@
+
+html,body{
+  font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+/************************ TOPO DESKTOP ************************/
+.topo{
+  height: 7vh;
+  width: 100%;
+  line-height: 7vh;
+}
+.logo{
+  height: 6vh;
+  margin-left: 20vh;
+}
+.logo img{
+  height: 6vh;
+  width: auto;  
+}
+.logo h1{
+  display: none;
+}
+.logomenu{
+  height: 8vh;
+}
+.menu{
+  margin-left: 0vh;
+  height: 8vh;
+}
+.menu a{
+  font-size: 2vw;
+  font-weight: bold;  
+}
+.menu ul{
+  list-style: none;
+}
+.menu ul li{
+  float: left;
+  padding-left: 2vw;
+}
+.icones{
+  height: 8vh;
+  float: right;
+  padding-right: 5vw;
+}
+.icones ul{
+  list-style: none;
+}
+.icones ul li{
+  float: left;
+  padding-left: 0.5vw;
+}
+/* TOPO MOBILLE************************************************/
+.topo-mb{
+  height: 5vh;
+  width: 100%;
+  padding-bottom: 8vh;
+  display: flex;
+
+}
+.topo-mb h1{
+  display: none;
+}
+.dropdown img{
+  height: 4vh;
+}
+
+/* BANNER ****************************************************/
+#banner{
+  height: auto;
+  width: 100vmax;
+}
+#banner img{
+  width: 100%;
+  height: 50vw;
+  }
+.carousel-caption{
+  background: #000;
+  opacity: 0.8;
+  font-size: 1.5vw;
+}
+.carousel-caption h5{
+  font-size: 2vw;
+}
+@media only screen and (max-width: 768px){
+  .carousel-caption{
+    background: #000;
+    opacity: 0.8;
+    font-size: 1.7vw;
+  }
+  #banner{
+    width: 100%;
+    height: auto;
+  }
+}
+/* SOMOS ****************************************************/
+#somos{
+  clear: both;
+  width: 100%;
+  background: #1AD6A4;
+
+}
+#somos h2{
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  font-size: 3.5vw;
+  text-align: center;
+  color: #fff;
+}
+#somos p{
+  font-size: 2vw;
+  color: #fff;
+  text-align: center;
+
+}
+#somos a{
+  font-size: 2vw;
+  color: #fff;
+  text-align: center;
+}
+
+.titulo{
+  padding: 0 50px;
+  width: 100%
+}
+.caixa{
+  width: 100%;
+  height: 25vw;
+  margin-top: -8px;
+}
+#somos-img-1 img{
+  width: 50%;
+  height: 30vw;
+  float: left;
+}
+#somos-txt-1{
+  height: 30vw;
+  width: 50%;
+  float: right;
+  background: #F6D333;
+  display: flex;
+  align-items: center;
+ 
+}
+#somos-img-2 img{
+  width: 50%;
+  height: 30vw;
+  float: right;
+}
+#somos-txt-2{
+  height: 30vw;
+  width: 50%;
+  float: left;
+  background: #F6D333;
+  padding:0 2.2vw;
+  display: flex;
+  align-items: center;
+}
+
+/* SOMOS-MB *************************************************/
+#somos-mb{
+  width: 100%;
+  background: #1AD6A4;
+}
+#somos-mb h2{
+  color: #fff;
+  text-align: center;
+  font-size: 4vw;
+  margin: 0;
+  padding: 0;
+}
+#somos-img-mb{
+ width: 100%;
+}
+#somos-txt-mb{
+  color: #fff;
+  font-size: 4vw;
+  padding: 4vw;
+  margin-bottom: 0;
+  text-align: center;
+}
+/* CADASTRO *************************************************/
+#cadastro{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 100%;
+  background: #1AD6A4;
+  text-align: center;
+  color:  #fff;
+  font-size: 1.4vw;
+}
+@media only screen and (max-width: 768px){
+  #cadastro{
+    padding-top: 3vh;
+    font-size: 3.5vw;
+  }
+  #cadastro p{
+    padding: 0 7vw;
+  }
+}
+#cadastro h3{
+  margin: 0;
+  padding: 0;
+}
+.form-group{
+  line-height: 6vh;
+}
+.form-control{
+  width: 70vh;
+  height: 6vh;
+  display: inline;
+  margin-left: -5px;
+}
+@media only screen and (max-width: 768px){
+  .form-control{
+    width: 45vh;
+    margin-bottom: 4vh;
+ }
+} 
+#cadastro button{
+  height: 6vh;
+  width: 25vh;
+  margin-top: 3vh;
+}
+#cadastro input{
+  border-radius: 0;
+}
+#cadastro button{
+  border-radius: 0;
+}
+.social{
+  width: 100%;
+
+}
+.social ul{
+  list-style: none;
+}
+.social ul li{
+  float: left;
+  margin-right: 2vw;
+}
+.social img{
+  width: 8vw;
+}
+@media only screen and (max-width: 768px){
+  .social img{
+    width: 12vh;
+ }
+} 
+
+/* CONTATO **************************************************/
+#contato{
+  width: 100%;
+  height: 
+}
+/* HASHTAG **************************************************/
+#hashtag{
+  height: 325px;
+  width: 100%;
+  background: #D94253 url('../imagens/foot.png') no-repeat center right;
+  background-size: contain;
+}
+#hashtag p{
+  color: #fff;
+  font-size: 2vw;
+}
+.hastag-txt{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin: 35px 70px;
+}
+.hastag-txt img{
+  width: 20vw;
+}
+.hastag-img{
+  width: 40%;
+  height: 325px;
+}
+
+/* RODAPE ***************************************************/
+footer{
+  clear: both;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  background: #1AD6A4;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline ;
+}
